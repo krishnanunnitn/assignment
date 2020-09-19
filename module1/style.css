@@ -1,0 +1,65 @@
+/*Styles*/
+div#content-main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.content-header.text-center {
+    margin: 40px;
+}
+.card {
+    background: #ededed;
+    border: none;
+    padding: 20px;
+}
+.card {
+    position: relative;
+}
+.not-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #F44336;
+    color: #fff !important;
+    padding: 4px;
+    border: 2px solid #333;
+}
+.card p {
+    margin-top: 20px;
+}
+.not-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #F44336;
+    color: #fff !important;
+    padding: 4px;
+    border: 2px solid #333;
+    cursor: pointer;
+    border-top: none;
+    border-right: none;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.card {
+    background: #ededed;
+    border-radius: 0px;
+    padding: 20px;
+    border: 2px solid;
+}
+.not-btn.btn1 {
+    background: #e67168 !important;
+    color: #333 !important;
+}
+.not-btn.bt3 {
+    background: #edc13f;
+    color: #333 !important;
+}
+.col-lg-4 {
+    margin: 10px 0px;
+}
+.not-btn {
+    width: 100px;
+    text-align: center;
+}

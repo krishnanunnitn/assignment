@@ -1,0 +1,32 @@
+/*Styles*/
+div#content-main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.contents_main {
+    max-width: 600px;
+    margin: auto;
+}
+.table thead th {
+    border-bottom: none !Important;
+}
+a.move_up {
+    background: #4CAF50;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.move_down {
+    background: #F44336;
+	padding: 4px 8px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+td.action a {
+    margin: 6px;
+}
